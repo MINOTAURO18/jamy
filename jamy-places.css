@@ -1,0 +1,642 @@
+*{
+    margin: 0;
+}
+
+/**reseteo para el box-sizing y mas**/
+html{
+    box-sizing: border-box;
+    font-family: 'DynaPuff', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+}
+
+hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+h1, h2, h3{
+    font-size: 20px;
+    color:#10427c;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+body{
+    background-color:#ffffff;
+    margin: 0;
+    font-family: 'DynaPuff', cursive;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;
+font-family: 'Titillium Web', sans-serif;
+text-align: justify;
+}
+
+
+/**diseño del menu de  navegacion-firts mobile**/
+a, li{
+    font-family: 'roboto', sans-serif;
+}
+
+.logo-header img{
+    width: 40px;
+    height: 40px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    background-color:#10427c;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 2rem;
+    width: 100%;
+    height: 10vh;
+}
+
+.nav-menu ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-menu li{
+    margin-right: 1.5rem;
+    list-style: none;
+}
+
+.nav-menu a{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-menu a:hover{
+    color:#021730;
+}
+
+
+.menu-icon{
+    margin-top:4px;
+}
+
+.menu-icon img{
+    width: 35px;
+    height: 35px;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+}
+
+.menu-icon, #check{
+    display: none;
+}
+
+/**@media para el mobile, para el menu de navegacion**/
+
+@media (max-width:420px){
+    header{
+        width: 100%;
+        height: 10vh;
+    }
+
+    .checkbtn{
+        display: block;
+    }
+
+    .menu-icon{
+        display: block;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        cursor: pointer;
+    }
+
+    .nav-menu ul{
+        display: block;
+        position: fixed;
+        top: 80px;
+        top: -120%;
+        background-color:#0c3768;
+        width: 100%;
+        height: 100vh;
+        right: 0;
+    }
+
+    .nav-menu ul:hover{
+        color: #021730;
+    }
+
+    .nav-menu ul li{
+        padding: 2.5rem;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        margin-right: 35px;
+    }
+
+    .nav-menu ul li:last-child{
+        background: none;
+        margin-right: 35px;
+    }
+
+    #check:checked ~ ul{
+        top: 10vh;
+        transition: all .35s;
+        -webkit-transition: all .35s;
+        -moz-transition: all .35s;
+        -ms-transition: all .35s;
+        -o-transition: all .35s;
+}
+
+.logo-header{
+    display: none;
+}
+
+.bikes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+
+.bikes img{
+    width: 50px;
+    height: 50px;
+}
+
+}
+
+
+
+
+.section-one{
+    width: 80%;
+    height: 40vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 50px;
+}
+.img-principal img{
+    width: 330px;
+    height: 330px;
+}
+
+.section-two{
+    width: 80%;
+    height: 55vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding: 70px 5px;
+}
+
+.lugares{
+    margin: 30px 0 15px 0;
+}
+
+
+
+
+.all-cards{
+    width: 80%;
+    margin: 0 auto;
+}
+
+/**configuracion de las cards**/
+
+.cards{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: rgb(243, 245, 247);
+    width: 100%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-bottom: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 10px ;
+    -webkit-border-radius: 10px ;
+    -moz-border-radius: 10px ;
+    -ms-border-radius: 10px ;
+    -o-border-radius: 10px ;
+}
+
+
+.container .card{
+    width: 100%;
+    height: 100%px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.container .card p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 900;
+    width: 95%;
+    text-align: center;
+    margin: 0 auto;
+
+} 
+
+
+.container .card img{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    border-radius: 9px 9px 0 0;
+    -webkit-border-radius: 9px 9px 0 0;
+    -moz-border-radius: 9px 9px 0 0;
+    -ms-border-radius: 9px 9px 0 0;
+    -o-border-radius: 9px 9px 0 0;
+}
+
+
+.container .redes {
+    display: inline-flex;
+    margin: 30px 0 0 29px;
+}
+
+.container .redes img{
+    width: 30px;
+    height: 30px;
+}
+
+ /**trabajo con el svg de next**/
+
+ .next{
+    width: 75%;
+     height: 40px;
+    margin: 0 auto;
+    margin-bottom:40px;
+    display: flex;
+    justify-content: end;
+  }
+ 
+  .next-logo{
+      width: 40px;
+      height: 40px;
+ 
+  }
+ 
+  .next-logo:hover{
+     background-color:#134b8b;
+     width: 42px;
+     height: 42px;
+     border-radius:5px;
+     transition: all .2s;
+     -webkit-border-radius:5px;
+     -moz-border-radius:5px;
+     -ms-border-radius:5px;
+     -o-border-radius:5px;
+     -webkit-transition: all .2s;
+     -moz-transition: all .2s;
+     -ms-transition: all .2s;
+     -o-transition: all .2s;
+}
+ 
+ /**trabajo con el pie de pagina**/
+ 
+ .pie-de-pagina{
+     background-color:#10427c;
+     height: 17vh;
+     display: flex;
+     flex-flow: row;
+     justify-content: space-evenly;
+     align-items: center;
+ }
+ 
+ .pie-de-pagina div img{
+     width: 30px;
+     height: 30px;
+ }
+ 
+ .derechos{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+
+
+ 
+
+ /**@media de pantallas medianas**/
+
+ @media (min-width: 421px){
+
+    h1, h2{
+        font-size: 4vw;
+    }
+
+    p{
+        font-size: 2.5vw;
+    }
+
+    header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 13vh;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    header a{
+        font-size: 2.5vw;
+        padding: 0 10px;
+    }
+
+    .container .redes {
+        display: inline-flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 20px 0 0 31px;
+
+    }
+    
+
+    .section-one{
+        width: 75%;
+        height: 80vh;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: -20px;
+    }
+
+    .img-principal  img{
+        width: 400px;
+        height: 400px;
+
+}
+
+.section-two{
+    width: 80%;
+    height: 80vh;
+}
+
+.bikes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bikes img{
+    width: 50px;
+    height: 50px;
+}
+
+
+.cards{
+    width: 85%;
+    display: grid;
+    grid-template-columns: 47% 47%;
+    gap: 30px;
+}
+
+.container{
+    background-color: rgb(243, 245, 247);
+    width: 100%;
+    height: 430px;
+    
+}
+
+.container .card p{
+    font-size: 17px;
+}
+
+
+.container .card{
+    width: 100%;
+    height: 100%px;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+
+.container .card img{
+    width: 100%;
+    height: 60%;
+    background-size: cover;
+    background-position: center center;
+    border-radius: 12px 12px 0 0;
+    -webkit-border-radius: 12px 12px 0 0;
+    -moz-border-radius: 12px 12px 0 0;
+    -ms-border-radius: 12px 12px 0 0;
+    -o-border-radius: 12px 12px 0 0;
+}
+
+
+.container .card div{
+    width: 30px;
+    height: 30px;
+}
+
+
+.container .card div img{
+    width: 28px;
+    height: 28px;
+}
+
+.container .redes {
+    display: inline-flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+    
+}
+
+/**para el desktoc**/
+
+@media (min-width: 1100px){
+    header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        height: 9vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+    }
+
+    header .menu{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 30px;
+    }
+
+    header li{
+        padding: 0 20px;
+    }
+
+
+    
+
+    header a{
+        font-size: 22px;
+        padding: 0 60px;
+    }
+    header .logo-header{
+        position: relative;
+        left: 25px;
+    }
+    .section-one{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        margin-top: -30px;
+        margin-left: -10px;
+    }
+
+   
+
+    .section-one .img-principal img{
+        width: 500px;
+        height: 500px;
+    }
+
+    .section-two{
+        width: 80%;
+        height: 60vh;
+    }
+
+    .section-two h1{
+        font-size: 30px
+    }
+
+    .section-two p{
+        width: 90%;
+        font-size: 20px;
+        margin: auto;
+    }
+
+    h2{
+        font-size: 30px;
+        margin: 70px 0;
+    }
+
+    .cards{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        gap: 25px;
+    }
+    
+    .container{
+        background-color: rgb(243, 245, 247);
+        height: 590px;
+        
+    }
+    
+    
+    .container .card{
+        
+        width: 100%;
+        height: 100%px;
+        border-radius: 10px;
+        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        -ms-border-radius: 10px;
+        -o-border-radius: 10px;
+    }
+
+    .container .card p{
+        font-size: 18px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-weight:700;
+        text-align: center;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    
+    .container .card img{
+        width: 100%;
+        height: 60%;
+        background-size: cover;
+        background-position: center center;
+        border-radius: 12px 12px 0 0;
+        -webkit-border-radius: 12px 12px 0 0;
+        -moz-border-radius: 12px 12px 0 0;
+        -ms-border-radius: 12px 12px 0 0;
+        -o-border-radius: 12px 12px 0 0;
+    }
+
+    .container .card div{
+        margin: 90px 0 0 95px;
+    }
+
+    .bikes{
+        display:flex;
+        justify-content:center;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    .bikes img{
+        width: 70px;
+        height: 70px;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
