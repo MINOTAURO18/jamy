@@ -3,7 +3,7 @@
 }
 
 /**reseteo para el box-sizing y mas**/
-html{
+html{ 
     box-sizing: border-box;
     font-family: 'DynaPuff', cursive;
 font-family: 'Oswald', sans-serif;
@@ -20,7 +20,7 @@ hr{
 
 h1, h2, h3{
     font-size: 20px;
-    color:#10427c;
+    color:black;
     text-align: center;
     margin-bottom: 10px;
 }
@@ -58,7 +58,7 @@ a, li{
 header{
     position: sticky;
     top: 0;
-    background-color:#10427c;
+    background-color:#2c2f34;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -79,7 +79,7 @@ header{
 
 .nav-menu a{
     text-decoration: none;
-    color: white;
+    color:black;
 }
 
 .nav-menu a:hover{
@@ -121,7 +121,7 @@ header{
         display: block;
         position: fixed;
         top: 20px;
-        right: 20px;
+        right: 30px;
         cursor: pointer;
     }
 
@@ -130,7 +130,7 @@ header{
         position: fixed;
         top: 80px;
         top: -120%;
-        background-color:#0c3768;
+        background-color:#2a2d31;
         width: 100%;
         height: 100vh;
         right: 0;
@@ -142,7 +142,8 @@ header{
 
     .nav-menu ul li{
         padding: 2.5rem;
-        font-size: 20px;
+        font-size: 22px;
+        font-weight: 550;
         display: flex;
         justify-content: center;
         margin: 0;
@@ -216,10 +217,6 @@ header{
 
 
 
-.all-cards{
-    width: 80%;
-    margin: 0 auto;
-}
 
 /**configuracion de las cards**/
 
@@ -232,65 +229,62 @@ header{
     align-items: center;
 }
 
-.container{
-    background-color: rgb(243, 245, 247);
+.card-container{
     width: 100%;
-    height: 450px;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-bottom: 20px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    border-radius: 10px ;
-    -webkit-border-radius: 10px ;
-    -moz-border-radius: 10px ;
-    -ms-border-radius: 10px ;
-    -o-border-radius: 10px ;
+    height: 50vh;
+    border-radius: 6px;
+    border: 1px solid black;
+    margin: 20px 0 30px 0;
+    box-shadow:5px 5px 15px rgba(0, 0, 0, 0.6) ;
+    transition: all 400ms ease;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    -ms-border-radius: 6px;
+    -o-border-radius: 6px;
+    -webkit-transition: all 400ms ease;
+    -moz-transition: all 400ms ease;
+    -ms-transition: all 400ms ease;
+    -o-transition: all 400ms ease;
 }
 
-
-.container .card{
-    width: 100%;
-    height: 100%px;
-    border-radius: 10px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-
-.container .card p{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-weight: 900;
-    width: 95%;
-    text-align: center;
-    margin: 0 auto;
-
-} 
-
-
-.container .card img{
+.card-container .img-card{
     width: 100%;
     height: 60%;
-    background-size: cover;
-    border-radius: 9px 9px 0 0;
-    -webkit-border-radius: 9px 9px 0 0;
-    -moz-border-radius: 9px 9px 0 0;
-    -ms-border-radius: 9px 9px 0 0;
-    -o-border-radius: 9px 9px 0 0;
 }
 
-
-.container .redes {
-    display: inline-flex;
-    margin: 30px 0 0 29px;
+.card-container .img-card p{
+    text-align: justify;
+    width: 95%;
+    margin: auto;
 }
 
-.container .redes img{
+.card-container .img-card img{
+    width: 100%;
+    height: 100%;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -ms-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
+}
+
+.container-redes{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.container-redes div img{
     width: 30px;
     height: 30px;
+    margin-bottom: 10px;
+
 }
+
+
+
 
  /**trabajo con el svg de next**/
 
@@ -310,7 +304,7 @@ header{
   }
  
   .next-logo:hover{
-     background-color:#134b8b;
+     background-color:#2c2f34;
      width: 42px;
      height: 42px;
      border-radius:5px;
@@ -328,7 +322,7 @@ header{
  /**trabajo con el pie de pagina**/
  
  .pie-de-pagina{
-     background-color:#10427c;
+     background-color:#2c2f34;
      height: 17vh;
      display: flex;
      flex-flow: row;
@@ -393,12 +387,14 @@ header{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: -20px;
+        margin-top: 20px;
     }
+
 
     .img-principal  img{
         width: 400px;
         height: 400px;
+        margin-bottom: 50px;
 
 }
 
@@ -423,72 +419,42 @@ header{
 .cards{
     width: 85%;
     display: grid;
-    grid-template-columns: 47% 47%;
+    grid-template-columns: 50% 50%;
     gap: 30px;
 }
 
-.container{
-    background-color: rgb(243, 245, 247);
+
+.card-container{
     width: 100%;
-    height: 430px;
-    
+    height: 400px;
+    cursor:default;
 }
 
-.container .card p{
+.card-container .img-card p{
     font-size: 17px;
+    text-align: justify;
+    width: 95%;
+    margin: auto;
 }
 
-
-.container .card{
+.card-container .img-card img{
     width: 100%;
-    height: 100%px;
-    border-radius: 10px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    height: 100%;
+    border-radius: 6px 6px 0 0;
+    -webkit-border-radius: 6px 6px 0 0;
+    -moz-border-radius: 6px 6px 0 0;
+    -ms-border-radius: 6px 6px 0 0;
+    -o-border-radius: 6px 6px 0 0;
 }
 
 
-.container .card img{
-    width: 100%;
-    height: 60%;
-    background-size: cover;
-    background-position: center center;
-    border-radius: 12px 12px 0 0;
-    -webkit-border-radius: 12px 12px 0 0;
-    -moz-border-radius: 12px 12px 0 0;
-    -ms-border-radius: 12px 12px 0 0;
-    -o-border-radius: 12px 12px 0 0;
-}
-
-
-.container .card div{
-    width: 30px;
-    height: 30px;
-}
-
-
-.container .card div img{
-    width: 28px;
-    height: 28px;
-}
-
-.container .redes {
-    display: inline-flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-left: 40px;
-    margin-bottom: 10px;
-}
 
     
 }
 
 /**para el desktoc**/
 
-@media (min-width: 1100px){
+@media (min-width: 900px){
     header{
         position: sticky;
         top: 0;
@@ -566,54 +532,34 @@ header{
     .cards{
         width: 80%;
         display: grid;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 33% 33% 33%;
         gap: 25px;
     }
-    
-    .container{
-        background-color: rgb(243, 245, 247);
-        height: 590px;
-        
-    }
-    
-    
-    .container .card{
-        
+
+    .card-container{
         width: 100%;
-        height: 100%px;
-        border-radius: 10px;
-        box-shadow: 0 4px 4px rgba(0, 0, 0, 0.2);
-        -webkit-border-radius: 10px;
-        -moz-border-radius: 10px;
-        -ms-border-radius: 10px;
-        -o-border-radius: 10px;
+        height: 400px;
+        cursor:default;
     }
 
-    .container .card p{
-        font-size: 18px;
-        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        font-weight:700;
-        text-align: center;
-        width: 90%;
-        margin: 0 auto;
+    .card-container .img-card p{
+        font-size: 17px;
+        text-align: justify;
+        width: 95%;
+        margin: auto;
     }
     
-    
-    .container .card img{
+    .card-container .img-card img{
         width: 100%;
-        height: 60%;
-        background-size: cover;
-        background-position: center center;
-        border-radius: 12px 12px 0 0;
-        -webkit-border-radius: 12px 12px 0 0;
-        -moz-border-radius: 12px 12px 0 0;
-        -ms-border-radius: 12px 12px 0 0;
-        -o-border-radius: 12px 12px 0 0;
+        height: 100%;
+        border-radius: 6px 6px 0 0;
+        -webkit-border-radius: 6px 6px 0 0;
+        -moz-border-radius: 6px 6px 0 0;
+        -ms-border-radius: 6px 6px 0 0;
+        -o-border-radius: 6px 6px 0 0;
     }
-
-    .container .card div{
-        margin: 90px 0 0 95px;
-    }
+    
+    
 
     .bikes{
         display:flex;
