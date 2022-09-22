@@ -334,14 +334,14 @@ header{
         position: sticky;
         top: 0;
         width: 100%;
-        height: 13vh;
+        height: 9vh;
         display: flex;
         align-items: center;
         justify-content: space-between;
     }
 
     header a{
-        font-size: 2.5vw;
+        font-size: 20px;
         padding: 0 10px;
     }
 

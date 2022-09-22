@@ -137,7 +137,7 @@ header{
     width: 90%;
     height: 500px;
     margin: auto;
-    margin-top: 50px;
+    margin-top: 20px;
     margin-bottom: 50px;
     border: 3px solid black;
     border-radius: 12px;
@@ -148,13 +148,6 @@ header{
 }
 
 
-.label::after{
-    content: "💠";
-}
-
-.label::before{
-    content: "💠";
-}
 
 label{
     display: flex;
@@ -330,13 +323,6 @@ header li{
 }
 
 
-.label::after{
-    content: "💠";
-}
-
-.label::before{
-    content: "💠";
-}
 
 label{
     display: flex;
@@ -468,7 +454,7 @@ textarea{
 @media (min-width: 1100px){
     .form{
         width: 30%;
-        height: 40vhpx;
+        height: 65vh;
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
@@ -478,15 +464,6 @@ textarea{
         -moz-border-radius: 12px;
         -ms-border-radius: 12px;
         -o-border-radius: 12px;
-    }
-    
-    
-    .label::after{
-        content: "💠";
-    }
-    
-    .label::before{
-        content: "💠";
     }
     
     label{
