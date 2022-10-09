@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:#cfc3c3fb;
+    background-color:rgb(4, 1, 22);
     font-family: 'Oswald', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
@@ -14,6 +14,12 @@ font-family: 'Titillium Web', sans-serif;
 a, li{
     font-family: 'roboto', sans-serif;
 }
+
+p{
+    color: #fff;
+}
+
+
 
 .logo-header img{
     width: 40px;
@@ -139,7 +145,7 @@ header{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 50px;
-    border: 3px solid black;
+    border: 5px solid #2a0752;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -156,6 +162,10 @@ label{
     font-size: 22px;
     margin: 15px 0;
     
+}
+
+.label{
+    color: #fff;
 }
 
 input{
@@ -198,7 +208,7 @@ textarea{
 }
 
 .submit:hover{
-    background-color:rgb(228, 216, 216);
+    background-color:#2a0752;
 }
 
  /**trabajo con el svg de next**/
@@ -213,13 +223,14 @@ textarea{
   }
  
   .next-logo{
+    background-color: #2a0752;
       width: 40px;
       height: 40px;
  
   }
  
   .next-logo:hover{
-     background-color:#2a2d31;
+     background-color:#2a0752;
      width: 42px;
      height: 42px;
      border-radius:10px;
@@ -240,7 +251,7 @@ textarea{
 /**trabajo con el pie de pagina**/
 
 .pie-de-pagina{
-    background-color:#2c2f34;
+    background-color:#2a0752;
     height: 12vh;
     display: flex;
     flex-flow: row;
@@ -263,7 +274,7 @@ textarea{
     text-align:justify;
     width: 90%;
     margin: 0 auto;
-    border: 3px solid black;
+    border: 5px solid #2a0752;
     border-radius: 10px;
     margin-top: -30px;
     margin-bottom: 20px;
@@ -314,7 +325,7 @@ header li{
     margin: auto;
     margin-top: 20px;
     margin-bottom: 20px;
-    border: 3px solid black;
+    border: 5px solid #2a0752;
     border-radius: 12px;
     -webkit-border-radius: 12px;
     -moz-border-radius: 12px;
@@ -331,6 +342,9 @@ label{
     font-size: 22px;
     margin: 15px 0;
     
+}
+.label{
+    color: #fff;
 }
 
 input{
@@ -372,12 +386,12 @@ textarea{
 }
 
 .submit:hover{
-    background-color: #2c2f34;
+    background-color: #2a0752;
 }
 
 
 .pie-de-pagina{
-    background-color:#2c2f34;
+    background-color:#2a0752;
     height: 17vh;
     display: flex;
     flex-flow: row;
@@ -400,7 +414,7 @@ textarea{
     text-align:center;
     width: 60%;
     margin: 0 auto;
-    border: 3px solid black;
+    border: 5px solid #2a0752;
     border-radius: 10px;
     margin-bottom: 20px;
     -webkit-border-radius: 10px;
@@ -425,13 +439,14 @@ textarea{
   }
  
   .next-logo{
+    background-color: #2a0752;
       width: 40px;
       height: 40px;
  
   }
  
   .next-logo:hover{
-     background-color:#2a2d31;
+     background-color:#2a0752;
      width: 42px;
      height: 42px;
      border-radius:10px;
@@ -458,7 +473,7 @@ textarea{
         margin: auto;
         margin-top: 20px;
         margin-bottom: 20px;
-        border: 3px solid black;
+        border: 5px solid #2a0752;
         border-radius: 12px;
         -webkit-border-radius: 12px;
         -moz-border-radius: 12px;
@@ -473,6 +488,10 @@ textarea{
         font-size: 22px;
         margin: 15px 0;
         
+    }
+
+    .label{
+        color: #fff;
     }
     
     input{
@@ -513,7 +532,7 @@ textarea{
     }
     
     .submit:hover{
-        background-color:#2c2f34;
+        background-color:#2a0752;
     }
 
     header{
@@ -556,7 +575,7 @@ textarea{
             text-align:justify;
             width: 30%;
             margin: 0 auto;
-            border: 3px solid black;
+            border: 5px solid #2a0752;
             border-radius: 10px;
             margin-bottom: 20px;
             -webkit-border-radius: 10px;
@@ -581,13 +600,14 @@ textarea{
   }
  
   .next-logo{
+    background-color: #2a0752;
       width: 40px;
       height: 40px;
  
   }
  
   .next-logo:hover{
-     background-color:#2a2d31;
+     background-color:#2a0752;
      width: 42px;
      height: 42px;
      border-radius:10px;
@@ -600,6 +620,10 @@ textarea{
      -moz-transition: all .2s;
      -ms-transition: all .2s;
      -o-transition: all .2s;
+ }
+
+ .pie-de-pagina{
+    background-color: #2a0752;
  }
     
     
