@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color:rgb(4, 1, 22);
+    background-color:#fff;
     font-family: 'Oswald', sans-serif;
 font-family: 'Raleway', sans-serif;
 font-family: 'Roboto Condensed', sans-serif;
@@ -16,7 +16,7 @@ a, li{
 }
 
 p{
-    color: #fff;
+    color: black;
 }
 
 
@@ -31,7 +31,7 @@ p{
 header{
     position: sticky;
     top: 0;
-    background-color:#10427c;
+    background-color:;
     display: flex;
     justify-content: space-between;
     align-items: center;
