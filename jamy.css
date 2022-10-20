@@ -120,6 +120,7 @@ header{
 
 .menu-icon{
     margin-top:4px;
+    
 }
 
 .menu-icon img{
@@ -130,6 +131,7 @@ header{
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
+    filter: invert(100%) sepia(39%) saturate(0%) hue-rotate(287deg) brightness(114%) contrast(101%);
 }
 
 .menu-icon, #check{
@@ -171,6 +173,7 @@ header{
 
     .sun{
         filter: invert(9%) sepia(17%) saturate(6890%) hue-rotate(250deg) brightness(125%) contrast(116%);
+        filter: invert(100%) sepia(39%) saturate(0%) hue-rotate(287deg) brightness(114%) contrast(101%);
     }
 
    

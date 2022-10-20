@@ -47,6 +47,8 @@ h1, h2, h3{
     width: 35px;
     height: 35px;
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(102%) contrast(103%);
+   
+
 }
 
 
@@ -122,6 +124,7 @@ header{
     -moz-border-radius: 2px;
     -ms-border-radius: 2px;
     -o-border-radius: 2px;
+    filter: invert(100%) sepia(0%) saturate(7481%) hue-rotate(30deg) brightness(95%) contrast(100%);
 }
 
 .menu-icon, #check{
@@ -172,6 +175,14 @@ header{
         justify-content: center;
         margin: 0;
         margin-right: 35px;
+    }
+
+    .nav-menu ul li a{
+        color: black !important;
+    }
+
+    .moon{
+        filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(199deg) brightness(96%) contrast(107%);
     }
 
     .nav-menu ul li:last-child{
