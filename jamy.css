@@ -29,11 +29,14 @@ scroll-behavior: smooth;
 .origami img{
     filter: invert(8%) sepia(65%) saturate(4318%) hue-rotate(264deg) brightness(79%) contrast(107%);
     filter: invert(14%) sepia(39%) saturate(7428%) hue-rotate(337deg) brightness(97%) contrast(89%);
+
+
 }
 
 .sun{
     width: 35px;
     height: 35px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(102%) contrast(103%);
 }
 
 body{
@@ -79,8 +82,11 @@ a, li{
 
 .logo-header img{
     width: 40px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(102%) contrast(103%);
 
 }
+
+
 
 header{
     position: sticky;
@@ -106,7 +112,7 @@ header{
 
 .nav-menu a{
     text-decoration: none;
-    color:#2a0752;
+    color:#ffffff !important;
 }
 
 

@@ -35,6 +35,7 @@ scroll-behavior: smooth;
 .moon{
     width: 35px;
     height: 35px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(102%) contrast(103%);
 }
 
 body{
@@ -49,7 +50,7 @@ font-family: 'Titillium Web', sans-serif;
 }
 
 hr{
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -79,6 +80,7 @@ a, li{
 
 .logo-header img{
     width: 40px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(102%) contrast(103%);
 
 }
 
@@ -106,7 +108,7 @@ header{
 
 .nav-menu a{
     text-decoration: none;
-    color:black;
+    color:#ffffff !important;
 }
 
 
@@ -222,7 +224,7 @@ header{
  /**trabajo con la seccion 2**/
 
  .section-two{
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
     text-align: justify;
     padding: 120px 12px;
@@ -252,7 +254,7 @@ header{
  /**trabajo con la seccion 3**/
 
  .section-three{
-    width: 75%;
+    width: 70%;
     margin: 0 auto;
     margin-bottom: 0px;
     text-align: justify;
@@ -380,7 +382,7 @@ header{
 
     .pie-de-pagina{
         width: 100%;
-        height: 25vh;
+        height: 17vh;
     }
 }
 
@@ -474,7 +476,7 @@ header{
 
     .pie-de-pagina{
         width: 100%;
-        height: 15vh;
+        height: 17vh;
     }
 
     .pie-de-pagina div img{

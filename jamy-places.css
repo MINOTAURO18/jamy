@@ -15,7 +15,7 @@ scroll-behavior: smooth;
 }
 
 hr{
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     margin-top: 20px; 
 }
@@ -46,6 +46,7 @@ h1, h2, h3{
 .sun{
     width: 35px;
     height: 35px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(102%) contrast(103%);
 }
 
 
@@ -76,6 +77,7 @@ a, li{
 .logo-header img{
     width: 40px;
     height: 40px;
+    filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(102%) contrast(103%);
 }
 
 header{
@@ -102,7 +104,7 @@ header{
 
 .nav-menu a{
     text-decoration: none;
-    color:#2a0752;
+    color:#fff !important;
 }
 
 
@@ -213,7 +215,7 @@ header{
 
 
 .section-one{
-    width: 80%;
+    width: 75%;
     height: 40vh;
     margin: 0 auto;
     display: flex;
@@ -228,7 +230,7 @@ header{
 }
 
 .section-two{
-    width: 80%;
+    width: 75%;
     height: 55vh;
     margin: 0 auto;
     display: flex;
@@ -248,7 +250,7 @@ header{
 /**configuracion de las cards**/
 
 .cards{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -588,7 +590,7 @@ header{
     }
 
     .cards{
-        width: 80%;
+        width: 75%;
         display: grid;
         grid-template-columns: 33% 33% 33%;
         gap: 25px;
@@ -598,7 +600,7 @@ header{
 
     .card-container{
         width: 100%;
-        height: 400px;
+        height: 380px;
         cursor:default;
         transition: all 400ms ease;
         -webkit-transition: all 400ms ease;
