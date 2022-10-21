@@ -259,6 +259,7 @@ header{
  .bikes > *{
     width: 40px;
     height: 40px;
+    filter: invert(0%) sepia(7%) saturate(0%) hue-rotate(84deg) brightness(95%) contrast(107%);
  }
 
  /**trabajo con la seccion 3**/
@@ -293,6 +294,7 @@ header{
  .origami div img{
     width: 40px;
     height: 40px;
+    filter: invert(0%) sepia(7%) saturate(0%) hue-rotate(84deg) brightness(95%) contrast(107%);
  }
 
  /**trabajo con el svg de next**/
@@ -343,12 +345,15 @@ header{
 .pie-de-pagina div img{
     width: 30px;
     height: 30px;
+    filter: invert(1);
+    -webkit-filter: invert(1);
 }
  
 .derechos{
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #ffffff;
 }
 
 /**@media para pantallas medianas**/

@@ -79,6 +79,17 @@ header{
     -o-border-radius: 2px;
 }
 
+.pie-de-pagina div img{
+    width: 30px;
+    height: 30px;
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.derechos{
+    color: #fff;
+}
+
 .menu-icon, #check{
     display: none;
 }

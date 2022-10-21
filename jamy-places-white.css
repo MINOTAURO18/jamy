@@ -82,6 +82,10 @@ a, li{
     filter: invert(100%) sepia(0%) saturate(0%) hue-rotate(275deg) brightness(102%) contrast(103%);
 }
 
+.bikes{
+    filter: invert(0%) sepia(0%) saturate(0%) hue-rotate(324deg) brightness(96%) contrast(104%);
+}
+
 header{
     position: sticky;
     top: 0;
@@ -311,6 +315,7 @@ header{
     -moz-border-radius: 6px 6px 0 0;
     -ms-border-radius: 6px 6px 0 0;
     -o-border-radius: 6px 6px 0 0;
+   
 }
 
 .container-redes{
@@ -325,7 +330,8 @@ header{
     width: 30px;
     height: 30px;
     margin-bottom: 10px;
-
+    filter: invert(0%) sepia(1%) saturate(0%) hue-rotate(200deg) brightness(93%) contrast(100%) !important;
+    -webkit-filter: invert(0%) sepia(1%) saturate(0%) hue-rotate(200deg) brightness(93%) contrast(100%) !important;
 }
 
 
@@ -380,12 +386,15 @@ header{
  .pie-de-pagina div img{
      width: 30px;
      height: 30px;
- }
+     filter: invert(1);
+     -webkit-filter: invert(1);
+}
  
  .derechos{
      display: flex;
      justify-content: center;
      align-items: center;
+     color: #ffffff;
  }
 
 

@@ -24,6 +24,15 @@ p{
     color: black;
 }
 
+.pie-de-pagina div img{
+    filter: invert(1);
+    -webkit-filter: invert(1);
+}
+
+.derechos{
+    color: #fff;
+}
+
 
 
 
