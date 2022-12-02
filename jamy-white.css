@@ -227,7 +227,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    clip-path: polygon(0 0,100% 0,100% 80%, 50% 95%, 0 80%);
+    /* clip-path: polygon(0 0,100% 0,100% 90%, 50% 99%, 0 90%); */
 
  }
 
